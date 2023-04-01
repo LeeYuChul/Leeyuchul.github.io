@@ -1,77 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html style="background-color: black;">
+<style>
+    ul,ol {list-style: none;}
+    a {text-decoration: none; color: #ffffff; font-size: 15px; font-style: italic;} <!--이 부분은 글자의 색상변경CSS-->
+    .navsetting {width: 80px,;}
+    #nav1 {text-align: center;}
+    #nav1>ul {display: inline-block;}
+    #nav1>ul li {float:left; padding:0 50px; line-height: 10px;}
+</style>
 <head>
     <meta charset="UTF-8" />
-    <title>아기사자 이유철 자기소개서</title>
-    <meta property="og:title" content="아기사자 유처리 자기소개서" >
-    <meta property="og:description" content="11기 이유철의 소개" >
-    <meta property="og:image" content="./YC.png" >
-    <style type="text/css"> 
-    table{margin: auto}
-    </style>
+    <title>아기사자 이유철 자기소개서 with CSS</title>
+    <meta property="og:title" content="아기사자 유처리 자기소개서">
+    <meta property="og:description" content="11기 이유철의 소개">
+    <meta property="og:image" content="./YC.png">
 </head>
-<body style="text-align:center";>
-    <h1> 아기사자🦁 이유철 자기소개서 </h1>
-    <hr>
-    <br>
-    <p>안녕하세요, 이번 멋쟁이사자처럼 11기로 들어온 이유철입니다 :)</p>
-    <img src="YC.png" alt="유처리 미모지" style="width: 200px; height:200px;">
-    <br>
-    <table border="2" width="700" cellpading="20" cellspacing="3">
-        <caption><h3>인적사항</h3></caption>
-        <tr>
-            <th>이름</th>
-            <th>전화번호</th>
-            <th>이메일</th>
-            <th>기수</th>
-            <th>학과</th>
-        </tr>
-        <tr>
-            <td align="center">이유철</td>
-            <td align="center">010-5266-6700</td>
-            <td align="center">yoochul89@naver.com</td>
-            <td align="center">11기</td>
-            <td align="center">디지털콘텐츠디자인</td>
-        </tr>
-    </table>
-    <br>
-    <p>현재 디지털콘텐츠디자인학과에서 UI/UX를 공부하고 있으며<br>
-        서비스 기획 및 PM직무를 준비하고 있습니다.<br>
-        <br>
-        그동안 피그마나 어도비XD같은 프로토타입 툴들을 사용하면서 프로토타입 상으로만<br>
-        구현이 가능하고 코드상으로는 제 실력상 구현하지 못함에 항상 아쉬웠습니다.<br>
-        <br>
-        이번 멋쟁이 사자처럼에서 열심히 수업도 듣고 인강도 들으면서 여기서 얻은 성장의 경험들을<br>
-        올해 해커톤에서 열심히 보여주겠습니다.<br>
-        <br>
-        아무래도 제가 코딩으로는 구현 가능한 것이 많이 없어서 많이 노력이 필요하겠지만<br>
-        저희 멋쟁이 사자처럼에서 구현하고 싶은 아이디어가 있다면 그 아이디어에 맞는 기획과<br>
-        UI/UX 디자인으로 도움이 될거라 생각합니다 :)
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        뭔가 너무 딱딱한 얘기만 해서ㅋㅋㅋㅋ 지금부터는 저, 이유철이라는 사람이 어떤 사람인지 적을게요ㅎㅎ<br>
-        저는 올해 3학년으로 복학한 19학번입니다.<br><br><br>
-        작년까지 강원도 철원에서 포병으로 군 복무를 했었습니다.<br>
-        <img src="Army.jpg" alt="군복무" style="width: 240px;; height: 300px;"><br>
-        <br>
-        <br>전역 후에는 알바 & 운동, 이 두 가지를 메인으로 했고 가끔씩 전공과 관련된 알바를 했습니다.
-        <br>작년 11월 MCI2022에서 행사요원을 했었는데 당시 멋쟁이 사자처럼 부스가 있는걸 보고
-        <br>멋사의 힘이 대단하구나를 느꼈습니다ㅎㅎ
-        <br><img src="MCI.jpg" alt="MCI2022에서" style="width: 200px;">
-        <br><br><br><br>
-        이런 엄청난 단체에 들어오게될 수 있어서 너무 영광이며 아마 제 대학생활 마지막 대외활동이 될텐데
-        <br>이 시기를 그냥 흘려보내지 않고 열심히 성장 그리고 즐기면서 행복하게 같이 지내요!
-        <br><br>
-        <br>그리고 이건 제 인스타 링크인데 팔로우 하시면 바로 맞팔 하겠습니다!<br>
-        <a href="https://www.instagram.com/2_existfe/"><img src="QR.png" alt="인스타QR" style="width: 200px;"></a>
-        <h3>감사합니다 :)</h3>
-        
+<header style="background-color: black;">
+    <div style="text-align: center;" ><img src="myzone.png"></div>
+</header>
+<hr>
+<nav class="navsetting" id="nav1">
+    <ul>
+        <li><a href="">Intro</a></li>
+        <li><a href="">Present</a></li>
+        <li><a href="">Umm..</a></li>
+        <li><a href="">Want to Know Me?</a></li>
+        <li><a href="">Contact</a></li>
+    </ul>
+</nav>
+<hr>
+<body style="color: #ffffff;">
+    <h1 style="text-align: center;"> 아기사자🦁 이유철 자기소개서 </h1>
+    
 
-
-    </p>
 </body>
+
 </html>
