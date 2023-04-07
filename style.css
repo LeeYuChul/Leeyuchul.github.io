@@ -17,4 +17,11 @@ a {text-decoration: none; color: #ffffff; font-size: 15px; font-style: italic;} 
 
 .wwd{
     width: 300px;
+    float: center;
+}
+
+.under{
+    width: 100%;
+    max-width:400px;
+    float: center;
 }
