@@ -1,0 +1,19 @@
+h3{
+    color: yellow;
+}
+
+.lion{
+    padding: 5px 10px;
+    text-align: center;
+	position: absolute;
+	left: 50%;
+	transform: translate( -50%, -80% );
+}
+
+.txtbox{
+    padding: 1em 2em; margin: 0.5em 0; font-weight: bold; color: #000000; background: #FFF; border: solid 3px #000000; border-radius: 10px;
+}
+
+.clkbox{
+    border-radius: 30px; background: #eaf824; font-weight:bold; color: #3A4CA8; padding: 1em 4em; margin: 0.5em;
+}
